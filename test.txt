@@ -1,0 +1,5 @@
+Welcome to our shared git.
+This Branch can be used to test your git capabilities and will not be used for anything else related to our project.
+
+
+Thank you all
