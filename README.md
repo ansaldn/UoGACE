@@ -1,5 +1,12 @@
 # Advanced Computer Engineering Project
 
+## Software and Hardware used
+Hardware used for this project: 
+ - [x] Single Board Computers : Raspberry Pie, Jetson Nanos, Odriod
+ - [x] Two Robotic Arms
+ - [x] Range of sensors and actuator
+                                
+Software used for this project: Python
 ## Getting Started 
 
 ## Description
@@ -9,6 +16,12 @@
 ## Installing
 
 ## Usage
+
+## Arm Control
+
+## Image Detection
+
+## Running the program
 
 ## Contributing
 
