@@ -4,5 +4,6 @@
 # it will lay rest and be read from using another script.
 
 # mv "filename/path (recieveFolder)" "path destination"
-print('Please Wait')
-sleep 10
+
+echo Please Wait
+sleep 5

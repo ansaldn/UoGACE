@@ -4,6 +4,9 @@
 # another script will send it off.
 
 # mv "filename/path" "path destination"
-print('Please Wait')
-sleep 10
+
+python savetoCSV.py
+
+echo Please Wait
+sleep 5
 bash sendFile.sh
