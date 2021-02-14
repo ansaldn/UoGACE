@@ -5,7 +5,7 @@
 
 # mv "filename/path" "path destination"
 
-python savetoCSV.py
+python savetoCSV.py #savetoCSV.py shold be dataEncryption.py
 
 echo Please Wait
 sleep 5
