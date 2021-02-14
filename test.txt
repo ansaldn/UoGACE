@@ -1,5 +1,6 @@
 Welcome to our shared git.
 This Branch can be used to test your git capabilities and will not be used for anything else related to our project.
 
+This is a small update I have made to this document to test the git from my raspberry pi
 
 Thank you all
