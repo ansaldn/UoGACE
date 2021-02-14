@@ -8,3 +8,4 @@ with open('data.csv', 'w', newline='') as file:
     writer = csv.writer(file)
     writer.writerow(text)
 file.close()
+
