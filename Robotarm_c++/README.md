@@ -1,3 +1,6 @@
+**The program allows the user to control the OWI-535 ROBOTIC ARM using a keyboard connected to the raspberry pi**
+
+
 1) install the following dependencies: sudo apt-get install libusb-dev ncurses-dev build-essential
 
 
