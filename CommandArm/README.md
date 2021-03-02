@@ -1,1 +1,4 @@
-To use the file you MUST do this
+Rasberry Pi Installation
+
+Run the following command
+
