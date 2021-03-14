@@ -10,13 +10,13 @@ import csv
 def callback(): #A function that prints a message to the screen for button.
     if entry1.get()==entry2.get():
         display.configure(text="successful")
-        #window.destroy()
+        window.destroy()
         window1()
     else:
         display.configure(text="Unsuccessful")
 
 def callback1():
-    #window1.destroy()
+    window1.destroy()
     window2()
 
 #Window Functions
