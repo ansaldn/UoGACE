@@ -88,7 +88,7 @@ while True:
         car = max(carcontours, key=cv2.contourArea)
         ((carx, cary), carrad) = cv2.minEnclosingCircle(car)
         Mcar = cv2.moments(car)
-        carcontourcenter = (int(Mcar["m10"] / Mcar["m00"]), int(Mcar["m01"] / Mcar["m00"]))
+        carcontourcenter  = (int(Mcar["m10"] / Mcar["m00"]), int(Mcar["m01"] / Mcar["m00"]))
         #print ("single car")
 
         if  carrad > 10:
