@@ -21,7 +21,8 @@ encryptSend.sh - this file will encrypt the data and proceed to run the script t
 decryptFile.sh - This file will decrypt the data and run the script that will read the data for use elsehwere.
 
 ## Device Requirements
-Here you will find the following files that are to be used on certain devices in the network. Note: _Not all nodes need all files for it to work_
+Here you will find the following files that are to be used on certain devices in the network. Note: _Not all nodes need all files for it to work_  
+You can also view [Dependancies](https://github.com/da5905p/UoGACE/wiki/Dependancies) to view all of the device requirement dependancies per branch.  
 
 router:
 encryptData.sh - to encrypt data before sending
