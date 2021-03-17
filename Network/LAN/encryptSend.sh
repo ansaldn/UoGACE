@@ -5,7 +5,7 @@
 
 # mv "filename/path" "path destination"
 
-python savetoCSV.py #savetoCSV.py shold be dataEncryption.py
+python saveSecure.py #This codes saves the input from another node i.e. moonBuggy and encrypts data before uploading to csv
 
 echo Please Wait
 sleep 5
