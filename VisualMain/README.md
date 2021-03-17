@@ -13,3 +13,5 @@ This file Converts BGR colour to HSV Colour with lower and upper bounds; output 
 The webcameCV2.py will be used to display the video on the screen and then a print screen functionallity will be used to take the RGB colour description of the object and use it for finding the HSV colours. 
 # Resize.py
 This file takes all the image in the directory and converts it to the same set resolution , this helps in image training in Tenserflow
+# DimesionCalculation.py
+This file calculates size of an object in an image based on the camera viewing angle using Euclidean geometry.
