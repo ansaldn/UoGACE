@@ -8,7 +8,7 @@ If you have not already clone this repo. This can be done with this command in t
 ```bash
 git clone https://github.com/da5905p/UoGACE.git
 ```
-*Please Note: GitHub must be previously installed, if it has not been follow the Quick Install Guide on the (Wiki)[https:github.com/da5905p/UoGACE/wiki]*
+*Please Note: GitHub must be previously installed, if it has not been follow the Quick Install Guide on the [Wiki](https:github.com/da5905p/UoGACE/wiki)*
 
 ## Order of Use
 
