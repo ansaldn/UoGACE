@@ -63,8 +63,8 @@ If you allready know the RGB variables of the two colours you would like to trac
 4. Use the select colour picker tool on the colour of the object you want to track.
 
 
-![How to RGB](VisualMain/Images/How-to-get-RGB.png)
-![How to RGB2](https://imgur.com/a/xkk6kY4)
+![alt text](https://github.com/da5905p/UoGACE/VisualMain/Images/How-to-get-RGB.png)
+
 
 6. Note the RGB value from the application
 7. Navigate to RGB Convert.py
