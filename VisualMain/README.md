@@ -9,7 +9,7 @@ This section of the Github describes the sourcefiles required for object detecti
 
 [Dependancies](#dependancies)
 
-[Dependancies](#development-stage-artifacts)
+[Development Stage Artifacts](#development-stage-artifacts)
 
 ## Main folder
 In the Main folder you will find:
@@ -18,9 +18,6 @@ In the Main folder you will find:
 
 ###  Tracking of 2 objects (2objectstrack.py)
 This file is the core Source file for tracking multiple objects.
-
-
-
 
 
 ```python
@@ -55,33 +52,56 @@ This file is an executable file which enables users to convert RGB values to HSV
 <details><summary>Steps</summary>
 <p>
 
-If you allready know the RGB variables of the two colours you would like to track please skip to step 6
+If RGB values of Object which you wish to track are allready known please skip to step 5.
 
-1. Open the webcam.
-2. Capture image using webcam or use Printscreen Keyboard Input to copy/save image.
-3. Copy the image across to a Paint editor.
-4. Use the select colour picker tool on the colour of the object you want to track.
-
-
-![alt text](https://github.com/da5905p/UoGACE/VisualMain/Images/How-to-get-RGB.png)
+1. Open the webcam you are using to do object detection 
+We have supplied a file called WebcamCV2.py which can be found under the Visual Main Branch:VisualMain/DevelopmentStage/WebcamCV2.py
+3. Capture image using webcam or use Printscreen Keyboard Input to save the image with desired Object Inside.
+4. Copy the image across to a Paint editor.
 
 
-6. Note the RGB value from the application
-7. Navigate to RGB Convert.py
-8. Using Pythin CLI Launch and enter the 3 RGB values as command line arguments seperated by 1 white space Example: RGBConvert.py 100 100 100
-9. The program will respond with lower and upper bounds printed to the CLI interface.
-10. Open One of the two Object Tracking Python scripts (objecttracking.py) for Tracking of 1 object & (2objectstrack.py) for Tracking of 2 objects. ..
-for 2 Object Tracking you'll need to navigate to lines 24 -> 27 These Look like:
+**<details><summary>4. Paint RGB Explained</summary>**
+<p>
+  
+1. Select the colour Picker tool
+2. Click the Picker tool upon the object you wish  to track
+3. Open the edit colours tool
+4. Read the RGB Value of desired object 
 
+![How to RGB Image](https://github.com/da5905p/UoGACE/blob/main/VisualMain/Images/How-to-get-RGB.png)
+
+</p>
+</details>
+
+5. Navigate to RGB Convert.py With RGB values for Tracking
+6. Using Pythin CLI Launch and enter the 3 RGB values as command line arguments seperated by 1 white space Example: RGBConvert.py 100 100 100
+
+**<details><summary>Example execution of RGB Convert with Command line Arguments</summary>**
+<p>
+  
+  The Script should be executed in the following format:
+Python3 RGBconv.py Red_value Green_value Blue_value
+
+![How to RGB Image2](https://github.com/da5905p/UoGACE/blob/main/VisualMain/Images/RGBConv.png)
+  
+  </p>
+</details>
+ 
+8. The program will respond with lower and upper bounds printed to the CLI interface. 
+9. Enter these bounds into the Object decection file of choice for 2 Object Tracking you'll need to navigate to lines 24 -> 27.
+
+***<details><summary>Bounds variables (Lines 24 --> 27)</summary>***
+<p>
+  
 ```python
 object1Lower = (8, 100, 100)
 object1Upper = (28, 255, 255)
 carlower = (160, 100, 100)
 carupper = (180, 255, 255)
 ```
+</p>
+</details>
 
-10. Navigate to the lines which contain the HSV Colour model bounds for lower and upper bounds.
-11. Enter the RGB Convert HSV Values into the required lines 
 12. Save the Python Script
 13. Return to the Python CLI and execute the program using Python 3
 
