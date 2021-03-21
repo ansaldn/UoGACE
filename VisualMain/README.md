@@ -61,11 +61,16 @@ If you allready know the RGB variables of the two colours you would like to trac
 2. Capture image using webcam or use Printscreen Keyboard Input to copy/save image.
 3. Copy the image across to a Paint editor.
 4. Use the select colour picker tool on the colour of the object you want to track.
-5. Note the RGB value from the application
-6. Navigate to RGB Convert.py
-7. Using Pythin CLI Launch and enter the 3 RGB values as command line arguments seperated by 1 white space Example: RGBConvert.py 100 100 100
-8. The program will respond with lower and upper bounds printed to the CLI interface.
-9. Open One of the two Object Tracking Python scripts (objecttracking.py) for Tracking of 1 object & (2objectstrack.py) for Tracking of 2 objects. ..
+
+
+![How to RGB](VisualMain/Images/How-to-get-RGB.png)
+![How to RGB2](https://imgur.com/a/xkk6kY4)
+
+6. Note the RGB value from the application
+7. Navigate to RGB Convert.py
+8. Using Pythin CLI Launch and enter the 3 RGB values as command line arguments seperated by 1 white space Example: RGBConvert.py 100 100 100
+9. The program will respond with lower and upper bounds printed to the CLI interface.
+10. Open One of the two Object Tracking Python scripts (objecttracking.py) for Tracking of 1 object & (2objectstrack.py) for Tracking of 2 objects. ..
 for 2 Object Tracking you'll need to navigate to lines 24 -> 27 These Look like:
 
 ```python
