@@ -4,8 +4,11 @@ This section of the Github describes the sourcefiles required for object detecti
 
 ## Table of Contents 
 [Deliverables](#main-folder)
-[How To](#how-to-track-multiple-objects)
+
+[How To Use Object & Multi Object Tracking](#how-to-track-multiple-objects)
+
 [Dependancies](#dependancies)
+
 [Dependancies](#development-stage-artifacts)
 
 ## Main folder
@@ -13,8 +16,12 @@ In the Main folder you will find:
 <details><summary>2 Object Tracking</summary>
 <p>
 
-### 2 Object Tracking
-Source file for tracking multiple object
+###  Tracking of 2 objects (2objectstrack.py)
+This file is the core Source file for tracking multiple objects.
+
+
+
+
 
 ```python
 print("hello world!")
@@ -22,6 +29,14 @@ print("hello world!")
 </p>
 </details>
 
+<details><summary>Converting RGB Values to HSV Model</summary>
+<p>
+
+####  Converting RGB Values to HSV Model (RGBConvert.py)
+This file is an executable file which enables users to convert RGB values to HSV model which enables them to be tracked by Python object tracking.
+
+</p>
+</details>
 
 ## How to Track Multiple Objects
 <details><summary>Requirements</summary>
@@ -40,7 +55,7 @@ print("hello world!")
 <details><summary>Steps</summary>
 <p>
 
-If you allready know the RGB variables of the two colours you would like to track please skip to step...
+If you allready know the RGB variables of the two colours you would like to track please skip to step 6
 
 1. Open the webcam.
 2. Capture image using webcam or use Printscreen Keyboard Input to copy/save image.
@@ -71,10 +86,19 @@ carupper = (180, 255, 255)
 
 
 ## Dependancies
+<details><summary>Dependancies</summary>
+<p>
+  
 ### Nano install_opencv.sh
 This file will install OpenCV and all dependencies with the rquired libraries. 
-## Development Stage Artifacts
 
+</p>
+</details>
+
+## Development Stage Artifacts
+<details><summary>Development Stage Artifacts</summary>
+<p>
+  
 ### WebcamCV2.py
 This file will open the USB Camera 2 (can be changed to other camera) by the use of OpenCV (Open Source Computer Vision Library). This represents a test file which will make sure that everyone's OpenCV is correctly installed. 
 ### NoWebcame AlternativeV2.py
@@ -90,3 +114,6 @@ The webcameCV2.py will be used to display the video on the screen and then a pri
 This file takes all the image in the directory and converts it to the same set resolution , this helps in image training in Tenserflow
 ### DimesionCalculation.py
 This file calculates size of an object in an image based on the camera viewing angle using Euclidean geometry.
+
+</p>
+</details>
