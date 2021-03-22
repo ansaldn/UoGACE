@@ -5,8 +5,8 @@ Hardware used for this project:
  - [x] Single Board Computers : Raspberry Pie, Jetson Nanos.
  - [x] Two Robotic Arms
                                  
-< Language used for this project: Python.>
-< Software used: Notepad, Nano and Visual Studio.>
+ Language used for this project: Python.  
+ Software used: Notepad, Nano and Visual Studio.
 
 ## Getting Started 
 
