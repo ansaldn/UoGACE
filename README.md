@@ -13,7 +13,8 @@ Hardware used for this project:
 ## Description
 
 ## Visuals
-*images
+https://media.discordapp.net/attachments/271692216865521664/823632235088445491/IMG_20210322_210016.jpg?width=881&height=441
+
 ## Installing
 
 ## Usage
