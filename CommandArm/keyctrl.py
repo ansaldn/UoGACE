@@ -28,8 +28,9 @@ def make_keymap():
         K_s: usb_arm.ElbowDown,
         K_w: usb_arm.ElbowUp,
         K_d: usb_arm.WristDown,
-        K_e: usb_arm.WristUp}
-        
+        K_e: usb_arm.WristUp,
+        K_p: usb_arm.LedOn,
+        K_v: usb_arm.Stop}
         
 def key_loop():
     km = make_keymap()
