@@ -6,7 +6,9 @@ Hardware used for this project:
  - [x] Two Robotic Arms
  - [x] Range of sensors and actuator
                                 
-Software used for this project: Python
+Language used for this project: Python.
+Software used: Notepad, Nano and Visual Studio.
+
 ## Getting Started 
 
 ## Description
