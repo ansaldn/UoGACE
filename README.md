@@ -22,11 +22,7 @@ Hardware used for this project:
 ## Arm Control
 
 ## Running the program
-- https://youtu.be/gusdRBZNdhA
-- https://youtu.be/hXU1uqdswCI
-- https://youtu.be/Zpo2eDtDWPI
-- https://youtu.be/Q5mCSqUZt6U
-- https://youtu.be/8nyxK3nzqvA
+- https://www.youtube.com/playlist?list=PLRJhhBaK3Fbt_bFId93iR54_QFgr3yZOt
 
 ## Contributing
 
