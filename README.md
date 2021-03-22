@@ -30,6 +30,6 @@ Software used for this project: Python
 
 ## Contributing
 
-## Authors and acknowledgment
+## Authors and Acknowledgment
 
 ## License
