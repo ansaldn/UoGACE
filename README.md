@@ -7,6 +7,7 @@ Hardware used for this project:
  - [x] Range of sensors and actuator
                                 
 Language used for this project: Python.
+
 Software used: Notepad, Nano and Visual Studio.
 
 ## Getting Started 
