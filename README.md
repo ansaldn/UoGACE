@@ -1,13 +1,11 @@
 # Advanced Computer Engineering Project
-### Arm Branch.
+Documentation of the python code used in the Arm Branch of the ACE project.
 
 ## Software and Hardware used
 Hardware used for this project: 
  - [x] Single Board Computers : Raspberry Pie, Jetson Nanos.
  - [x] Two Robotic Arms
-<ol>
- <li>First item</li>
-</ol>
+
 
  Language used for this project: Python.  
  Software used: Notepad, Nano and Visual Studio.
