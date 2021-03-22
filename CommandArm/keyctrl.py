@@ -1,3 +1,4 @@
+# Blanca Urechiatu and Joao Reis
 """key_ctrl - key based arm controller"""
 from functools import partial
 import usb_arm
