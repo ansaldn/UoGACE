@@ -22,11 +22,11 @@ Software used for this project: Python
 ## Image Detection
 
 ## Running the program
-https://youtu.be/gusdRBZNdhA
-https://youtu.be/hXU1uqdswCI
-https://youtu.be/Zpo2eDtDWPI
-https://youtu.be/Q5mCSqUZt6U
-https://youtu.be/8nyxK3nzqvA
+- https://youtu.be/gusdRBZNdhA
+- https://youtu.be/hXU1uqdswCI
+- https://youtu.be/Zpo2eDtDWPI
+- https://youtu.be/Q5mCSqUZt6U
+- https://youtu.be/8nyxK3nzqvA
 
 ## Contributing
 
