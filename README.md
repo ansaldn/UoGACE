@@ -7,16 +7,13 @@ Hardware used for this project:
                                  
  Language used for this project: Python.  
  Software used: Notepad, Nano and Visual Studio.
-
-## Getting Started 
-
+ 
 ## Description
+This code consists on allowing a user to control a robotic arm in order to grab, lift and carry an object into a designed storage and vice versa. 
 
 ## Visuals
+Images of the robot arms's physical aspects.
 ![image](https://user-images.githubusercontent.com/75034234/112049476-972a4200-8b47-11eb-8432-dd973a52a212.png)
-
-
-## Installing
 
 ## Usage
 
