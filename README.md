@@ -13,8 +13,7 @@ Hardware used for this project:
 ## Description
 
 ## Visuals
-![image](https://user-images.githubusercontent.com/75034234/112049152-297e1600-8b47-11eb-8047-b2313e822cea.png)
-![image](https://user-images.githubusercontent.com/75034234/112049242-431f5d80-8b47-11eb-84c8-1ba283e78745.png)
+![image](https://user-images.githubusercontent.com/75034234/112049476-972a4200-8b47-11eb-8432-dd973a52a212.png)
 
 
 ## Installing
