@@ -28,7 +28,7 @@ wget -q http://4tronix.co.uk/robohat/servo.py -O servo.py
 wget -q http://4tronix.co.uk/robohat/servoTest.py -O servoTest.py
 wget -q http://4tronix.co.uk/robohat/sonarTest.py -O sonarTest.py
 chmod +x servod
-'''
+```
 ## Notable Scripts
 
 ### keyControlRover.py
