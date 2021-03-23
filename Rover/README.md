@@ -13,7 +13,22 @@ Scripts for various control functions of the cargo transportation Rover used on 
 After assembly of the RoboHAT and chassis, open linux terminal and run the following commands to test sample code from the manufacturers of roboHAT. 
 
 *Please note that these scripts aren't fully necessary to run the scripts in the rover folder, but are useful to test functionality of the Rover
-
+```bash
+if [ ! -d ~/robohat ]; then
+  mkdir ~/robohat
+fi
+cd ~/robohat
+wget -q http://4tronix.co.uk/robohat/servod.xxx -O servod
+wget -q http://4tronix.co.uk/robohat/robohat.py -O robohat.py
+wget -q http://4tronix.co.uk/robohat/motorTest.py -O motorTest.py
+wget -q http://4tronix.co.uk/robohat/motorTest2.py -O motorTest2.py
+wget -q http://4tronix.co.uk/robohat/motorTestRaw.py -O motorTestRaw.py
+wget -q http://4tronix.co.uk/robohat/irTest.py -O irTest.py
+wget -q http://4tronix.co.uk/robohat/servo.py -O servo.py
+wget -q http://4tronix.co.uk/robohat/servoTest.py -O servoTest.py
+wget -q http://4tronix.co.uk/robohat/sonarTest.py -O sonarTest.py
+chmod +x servod
+'''
 ## Notable Scripts
 
 ### keyControlRover.py
