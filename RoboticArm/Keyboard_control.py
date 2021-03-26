@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # Robotic arm manipulation with the keyboard and the ncurses module.
-# W. H. Bell
+# HasanTufael
 import curses
 import usb.core, usb.util
 
