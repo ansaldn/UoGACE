@@ -7,5 +7,5 @@ To run the program type
 sudo ./python/move_and_control_arm.py
 
 For the keyboard control
-sudo ./python/Keyboard¬¬_control.py
+sudo ./python/Keyboard_control.py
 
