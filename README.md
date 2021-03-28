@@ -21,7 +21,13 @@ Images of the robot arms's physical aspects.
 The Arm has a claw at the tip that can grab things as well as let them go, it can also move according to the needs of the user to redirect the claw in any direction.  
   
 ## Arm Control
-        ´´´K_z: usb_arm.BaseClockWise, 
+In order to control the Arm a lot of commands are going to be necessary in this case a keyboard will be enough to do all the commands. The keys to press with be:  
+Z / X - clockwise base rotation / counter clockwise base rotation;  R / F - close grips(claw) / open grips;  A / Q - shoulder down / shoulder up;  S / W - elbow down / elbow up;  D / E - wrist down / wrist up;  P - turning LEDs on; V - stop.  
+
+  
+The code goes as follows:
+
+        K_z: usb_arm.BaseClockWise, 
         K_x: usb_arm.BaseCtrClockWise,
         K_r: usb_arm.CloseGrips,
         K_f: usb_arm.OpenGrips,
@@ -32,7 +38,7 @@ The Arm has a claw at the tip that can grab things as well as let them go, it ca
         K_d: usb_arm.WristDown,
         K_e: usb_arm.WristUp,
         K_p: usb_arm.LedOn,
-        K_v: usb_arm.Stop´´´ 
+        K_v: usb_arm.Stop 
         
 ## Running the program
 The following link leads to a playlist with videos of the testing done:
