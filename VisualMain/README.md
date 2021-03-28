@@ -19,10 +19,6 @@ In the Main folder you will find:
 ###  Tracking of 2 objects (2objectstrack.py)
 This file is the core Source file for tracking multiple objects.
 
-
-```python
-print("hello world!")
-```
 </p>
 </details>
 
