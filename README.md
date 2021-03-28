@@ -21,7 +21,19 @@ Images of the robot arms's physical aspects.
 The Arm has a claw at the tip that can grab things as well as let them go, it can also move according to the needs of the user to redirect the claw in any direction.  
   
 ## Arm Control
-
+        ´´´K_z: usb_arm.BaseClockWise, 
+        K_x: usb_arm.BaseCtrClockWise,
+        K_r: usb_arm.CloseGrips,
+        K_f: usb_arm.OpenGrips,
+        K_a: usb_arm.ShoulderDown,
+        K_q: usb_arm.ShoulderUp,
+        K_s: usb_arm.ElbowDown,
+        K_w: usb_arm.ElbowUp,
+        K_d: usb_arm.WristDown,
+        K_e: usb_arm.WristUp,
+        K_p: usb_arm.LedOn,
+        K_v: usb_arm.Stop´´´ 
+        
 ## Running the program
 The following link leads to a playlist with videos of the testing done:
 > https://www.youtube.com/playlist?list=PLRJhhBaK3Fbt_bFId93iR54_QFgr3yZOt
