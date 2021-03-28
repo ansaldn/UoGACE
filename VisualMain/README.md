@@ -27,22 +27,24 @@ This file is the core Source file for tracking multiple objects.
 
 ####  Converting RGB Values to HSV Model (RGBConvert.py)
 This file is an executable file which enables users to convert RGB values to HSV model which enables them to be tracked by Python object tracking.
-A pixel is always represented by the three main colours -> RED, GREEN, BLUE (RGB); each of the colours may have a value between 0-255.
+A pixel is always represented by the three main colours -> RED, GREEN, BLUE (RGB).
+Each of the colours may have a value between 0-255.
 But when working with the environment of OpenCV and computer graphical representations, HSV colour model will be used. 
 Hue, Saturation, Value (HUE) is the alternative way of representing the RGB colours when working with OpenCV therefore, to tack an object with certain colour the RGB to HSV code 
 converter will be used to define the lower and upper bounds of the HSV model. 
 
 Figures below show the difference between RGB and HSV colour models. 
 
-RGB Colour Model
+### RGB Colour Model
 
 ![How to RGB Model](https://github.com/da5905p/UoGACE/blob/82f9a88ca602547f071289239edc4fdb91152c57/VisualMain/Images/RGB.PNG)
 
-HSV Colour Model 
+### HSV Colour Model 
 
 ![How to RGB Model](https://github.com/da5905p/UoGACE/blob/82f9a88ca602547f071289239edc4fdb91152c57/VisualMain/Images/HSV.PNG)
 
-The detailed steps of how to use the codes for detecting and tracking objects are represented in the section below. 
+The detailed steps of how to use the codes for detecting and tracking objects are represented in the section below:
+[Section Below](#how-to-track-multiple-objects)
 
 </p>
 </details>
