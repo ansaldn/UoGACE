@@ -31,8 +31,11 @@ A pixel is always represented by the three main colours -> RED, GREEN, BLUE (RGB
 But when working with the environment of OpenCV and computer graphical representations, HSV colour model will be used. 
 Hue, Saturation, Value (HUE) is the alternative way of representing the RGB colours when working with OpenCV therefore, to tack an object with certain colour the RGB to HSV code 
 converter will be used to define the lower and upper bounds of the HSV model. 
+
 Figures below show the difference between RGB and HSV colour models. 
 
+RGB Model
+![How to RGB Model](https://github.com/da5905p/UoGACE/blob/main/VisualMain/Images/RGB.png)
 
 </p>
 </details>
