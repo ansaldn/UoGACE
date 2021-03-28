@@ -1,4 +1,4 @@
-#Created By RAvi Kumar
+#Created By Ravi Kumar
 #Date : 01/03/2021
 #Version:1
 #Description: Converting All pictures in a Folder to a same resoultion for tensorflow training purpose
