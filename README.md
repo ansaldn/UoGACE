@@ -29,11 +29,19 @@ Bases = Arm, Visual, Network
 
 ## Description
 
-## Visuals
-
 ## Usage
 
 ## Arm Control
+The main purpose of the Arm branch was to develop a code which will give the user the possiblity to control the arm remotely. The arm is able to rotate in any direction, rise up and down and different other functions. At the end of the physical arm, a claw is present which will be used to grab and also drop things from a certain location to another location, which is the storage, and vice versa.
+
+There are different movements possible: GripsOpen, GripsClose, WristUp, WristDown, ElbowUp, ElbowDown, ShoulderUp, ShoulderDown, Stop etc. 
+
+As an example: 
+
+```bash
+>>> arm.move(usb_arm.GripsOpen)
+```
+The grips will open.
 
 ## Image Detection
 
