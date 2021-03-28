@@ -1,4 +1,4 @@
-#include "robotarm.h"
+#include "arm.h"
 void RobotArm::connect() {
 	struct usb_bus *busses;
 	usb_init();

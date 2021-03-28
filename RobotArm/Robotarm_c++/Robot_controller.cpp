@@ -1,7 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <curses.h>
-#include "robotarm.h"
+#include "arm.h"
 
 
 int main(void) {

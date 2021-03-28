@@ -3,4 +3,4 @@ CFLAGS = -I.
 LIBS=-lusb -lncurses
 
 all: robot.cpp
-	$(CC) -o robot robot.cpp robotarm.cpp $(CFLAGS) $(LIBS)
+	$(CC) -o robot Robot_controller.cpp arm.cpp $(CFLAGS) $(LIBS)
