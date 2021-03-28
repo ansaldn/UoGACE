@@ -9,7 +9,7 @@ int main(void) {
 		initscr();
 		timeout(-1);
 		
-		printw("Robot arm interface by P. Dring\n");
+		printw("Robot arm interface");
 		
 		printw("Grip commands: i, o, p\n\r");
 		printw("Base commands: k, l, ;\n\r");
