@@ -7,7 +7,7 @@ Hardware used for this project:
  - [x] Two Robotic Arms
 
 
- Language used for this project: Python.  
+ Language used for this project: Python and C++.  
  Software used: Notepad, Nano and Visual Studio.
  
 ## Description
@@ -18,7 +18,8 @@ Images of the robot arms's physical aspects.
 ![image](https://user-images.githubusercontent.com/75034234/112049476-972a4200-8b47-11eb-8432-dd973a52a212.png)
 
 ## Usage
-
+The Arm has a claw at the tip that can grab things as well as let them go, it can also move according to the needs of the user to redirect the claw in any direction.  
+  
 ## Arm Control
 
 ## Running the program
