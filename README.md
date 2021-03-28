@@ -53,5 +53,8 @@ Example of code:
     >>> case 'w': roboarm.setWrist(RobotArm::ARM_UP); break;
 ## Running the program
 The following link leads to a playlist with videos of the testing done:
-> https://www.youtube.com/playlist?list=PLRJhhBaK3Fbt_bFId93iR54_QFgr3yZOt
+> https://www.youtube.com/playlist?list=PLRJhhBaK3Fbt_bFId93iR54_QFgr3yZOt  
+
+## Aknowledgements
+The code was produced by: Goncalo Alexandre Garab, Joan C Garcia Castro, Md Jafrul Hasan Tufael, Joao Pedro P Dos Reis and Blanca Urechiatu.
 
