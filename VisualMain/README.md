@@ -36,7 +36,13 @@ Figures below show the difference between RGB and HSV colour models.
 
 RGB Model
 
-![How to RGB Model](https://github.com/da5905p/UoGACE/blob/main/VisualMain/Images/RGB.png)
+![RGBModel](https://github.com/da5905p/UoGACE/blob/main/VisualMain/Images/RGB.PNG)
+
+HSV Model 
+
+
+![HSVModel](https://github.com/da5905p/UoGACE/blob/main/VisualMain/Images/HSV.PNG)
+
 
 </p>
 </details>
