@@ -11,8 +11,8 @@ Hardware used for this project:
  Software used: Notepad, Nano and Visual Studio.
  
 ## Description
-This is a separate branc of a larger project, ACE (Advanced Computer Engineering). This branch of the project involves developing code in order to allow any one user to control a robotic arm remotely as if it was in a robotic colony in Mars. The arm is intended to rotate left and right, rise up and down and adapt to grab and place, for instance, rocks and other objects into a deposit or storage working together with a rover styled remotely controlled car that was developed in another branch. 
-The program was made with different programming languages in order to demonstrate and create versatility and flexibility. 
+This is a separate branch of a larger project, ACE (Advanced Computer Engineering). This branch of the project involves developing code in order to allow any one user to control a robotic arm remotely as if it was in a robotic colony in Mars. The arm is intended to rotate left and right, rise up and down and adapt to grab and place, for instance, rocks and other objects into a deposit or storage working together with a rover styled remotely controlled car that was developed in another branch. 
+The program was made with different programming languages in order to demonstrate and create versatility and flexibility (Python and C++). 
 
 ## Visuals
 Images of the robot arms's physical aspects.  
