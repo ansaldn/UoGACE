@@ -10,14 +10,17 @@ int main(void) {
 		timeout(-1);
 		
 		printw("Robot arm interface");
+		printw("Press a key to start");
 		
-		printw("Grip commands: i, o, p\n\r");
-		printw("Base commands: k, l, ;\n\r");
-		printw("Wrist commands: w, s, x\n\r");
-		printw("Elbow commands: e, d, c\n\r");
-		printw("Shoulder commands: r, f, v\n\r");
-		printw("Toggle LED: space\n\r");
-		printw("Quit: q\n\r");
+		printw("Grip: i, o, p\n\r");
+		printw("Base: k, l, ;\n\r");
+		printw("Wrist: w, s, x\n\r");
+		printw("Elbow: e, d, c\n\r");
+		printw("Shoulder: r, f, v\n\r");
+		
+		printw("LED: space\n\r");
+		printw("Exit: q\n\r");
+		
 		
 		
 		RobotArm roboarm;
