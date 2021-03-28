@@ -31,7 +31,7 @@ A / Q - shoulder down / shoulder up;
 S / W - elbow down / elbow up;  
 D / E - wrist down / wrist up;  
 P - turning LEDs on;   
-V - end the program.
+V - stops motion.
 
 Example of the code:
 
