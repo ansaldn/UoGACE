@@ -43,6 +43,18 @@ As an example:
 ```
 The grips will open.
 
+Programmed sequence of actions can be created for this, these sequences being multiple arrays of commands as seen in the following example:
+
+```bash
+rotate = [[usb_arm.BaseCtrClockWise,7],[usb_arm.GripsOpen],[usb_arm.BaseClockWise,6.8]]
+```
+
+And to run the action: 
+
+```bash
+arm.doActions(rotate)
+```
+
 ## Image Detection
 
 ## Running the program
