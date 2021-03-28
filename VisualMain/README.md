@@ -119,6 +119,10 @@ carupper = (180, 255, 255)
 ## Dependancies
 <details><summary>Dependancies</summary>
 <p>
+  To check sucessfull installation of opencv dependencies command 'jtop' in the CLI can be used 
+  ![OpenCV](https://github.com/da5905p/UoGACE/blob/main/VisualMain/Images/dependancies.png)
+  
+  
   
 ### Nano install_opencv.sh
 This file will install OpenCV and all dependencies with the rquired libraries. 
