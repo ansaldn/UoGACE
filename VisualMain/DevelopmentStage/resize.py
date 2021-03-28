@@ -20,6 +20,7 @@ def resize():
         if os.path.isfile(directory+image):
             im = Image.open(directory+image)
             f, e = os.path.splitext(directory+image)
+		# Metion the resolution for the new images 
             imResize = im.resize((720,576), Image.ANTIALIAS)
             imResize.save('Image_'+str(a)+'.jpg', 'JPEG', quality=90)
             a=a+1
