@@ -44,7 +44,7 @@ p / i - close grips(claw) / open grips;
 r / v - shoulder down / shoulder up;  
 e / c - elbow down / elbow up;  
 w / x - wrist down / wrist up;  
-  - turning LEDs on;   
+" " - turning LEDs on;   
 o - stops grips; l - stops base; s - stops wrist; d - stops elbow; f - stops shoulder;  
 q - end the program.  
 
