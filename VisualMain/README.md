@@ -120,7 +120,9 @@ carupper = (180, 255, 255)
 <details><summary>Dependancies</summary>
 <p>
   To check sucessfull installation of opencv dependencies command 'jtop' in the CLI can be used 
-  ![OpenCV](https://github.com/da5905p/UoGACE/blob/main/VisualMain/Images/dependancies.png)
+  ![OpenCV].(https://github.com/da5905p/UoGACE/blob/main/VisualMain/Images/dependancies.png)
+  </p>
+</details>
   
   
   
