@@ -31,8 +31,6 @@ Bases = Arm, Visual, Network
 
 ## Visuals
 
-## Installing
-
 ## Usage
 
 ## Arm Control
@@ -41,8 +39,6 @@ Bases = Arm, Visual, Network
 
 ## Running the program
 
-## Contributing
-
-## Authors and alnowledgment
+## Authors and aknowledgements
 
 ## License
