@@ -135,6 +135,8 @@ The webcameCV2.py will be used to display the video on the screen and then a pri
 This file takes all the image in the directory and converts it to the same set resolution , this helps in image training in Tenserflow
 ### DimesionCalculation.py
 This file calculates size of an object in an image based on the camera viewing angle using Euclidean geometry.
+### ForeignObjectDetection.py
+This files detects any foreign object introduced to the frame and save a snapshot of the frame to a set folder.This works by creating one frame as base and subtract it from the new frame the difference in the frames result in the object detection . once an object is detected the base frame is reset to the new frame and too detct any new object . 
 
 </p>
 </details>
