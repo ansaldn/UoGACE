@@ -31,7 +31,7 @@ P - turning LEDs on; V - stop.
 
 Example of the code:
 
-        K_z: usb_arm.BaseClockWise
+    K_z: usb_arm.BaseClockWise
         
 ## Running the program
 The following link leads to a playlist with videos of the testing done:
