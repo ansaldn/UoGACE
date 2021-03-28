@@ -34,9 +34,15 @@ converter will be used to define the lower and upper bounds of the HSV model.
 
 Figures below show the difference between RGB and HSV colour models. 
 
-RGB Model
+RGB Colour Model
 
-![How to RGB Model](https://github.com/da5905p/UoGACE/blob/main/VisualMain/Images/RGB.png)
+![How to RGB Model](https://github.com/da5905p/UoGACE/blob/82f9a88ca602547f071289239edc4fdb91152c57/VisualMain/Images/RGB.PNG)
+
+HSV Colour Model 
+
+![How to RGB Model](https://github.com/da5905p/UoGACE/blob/82f9a88ca602547f071289239edc4fdb91152c57/VisualMain/Images/HSV.PNG)
+
+The detailed steps of how to use the codes for detecting and tracking objects are represented in the section below. 
 
 </p>
 </details>
