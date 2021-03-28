@@ -17,7 +17,10 @@ In the Main folder you will find:
 <p>
 
 ###  Tracking of 2 objects (2objectstrack.py)
-This file is the core Source file for tracking multiple objects.
+This file is responsible for for tracking multiple objects.
+The software outputs the centroid point of the detected object colours specified by the object bounds. See [Our how to](#how-to-track-multiple-objects) for more imformation regarding how to configure this code.
+
+![2objects](https://github.com/da5905p/UoGACE/blob/main/VisualMain/Images/Github.png)
 
 </p>
 </details>
