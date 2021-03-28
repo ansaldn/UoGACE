@@ -55,8 +55,3 @@ Example of code:
 The following link leads to a playlist with videos of the testing done:
 > https://www.youtube.com/playlist?list=PLRJhhBaK3Fbt_bFId93iR54_QFgr3yZOt
 
-## Contributing
-
-## Authors and Acknowledgment
-
-## License
