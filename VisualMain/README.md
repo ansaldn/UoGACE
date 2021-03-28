@@ -27,24 +27,16 @@ This file is the core Source file for tracking multiple objects.
 
 ####  Converting RGB Values to HSV Model (RGBConvert.py)
 This file is an executable file which enables users to convert RGB values to HSV model which enables them to be tracked by Python object tracking.
-
-A pixel is always represented by the three main colours -> RED, GREEN, BLUE (RGB).  Each of the colours may have a value between 0-255.
+A pixel is always represented by the three main colours -> RED, GREEN, BLUE (RGB); each of the colours may have a value between 0-255.
 But when working with the environment of OpenCV and computer graphical representations, HSV colour model will be used. 
 Hue, Saturation, Value (HUE) is the alternative way of representing the RGB colours when working with OpenCV therefore, to tack an object with certain colour the RGB to HSV code 
 converter will be used to define the lower and upper bounds of the HSV model. 
 
 Figures below show the difference between RGB and HSV colour models. 
 
-### RGB Colour Model
+RGB Model
 
-![How to RGB Model](https://github.com/da5905p/UoGACE/blob/82f9a88ca602547f071289239edc4fdb91152c57/VisualMain/Images/RGB.PNG)
-
-### HSV Colour Model 
-
-![How to RGB Model](https://github.com/da5905p/UoGACE/blob/82f9a88ca602547f071289239edc4fdb91152c57/VisualMain/Images/HSV.PNG)
-
-The detailed steps of how to use the codes for detecting and tracking objects are represented in the section below:
-[Section Below](#how-to-track-multiple-objects)
+![How to RGB Model](https://github.com/da5905p/UoGACE/blob/main/VisualMain/Images/RGB.png)
 
 </p>
 </details>
@@ -150,9 +142,10 @@ The file was used for demonstrative purposes in understanding masks and how Open
 This file Converts BGR colour to HSV Colour with lower and upper bounds; output to be used within the colourshow.py file. 
 The webcameCV2.py will be used to display the video on the screen and then a print screen functionallity will be used to take the RGB colour description of the object and use it for finding the HSV colours. 
 ### Resize.py
-This file takes all the image in the directory and converts it to the same set resolution , this helps in image training in Tenserflow
+This file takes all the image in the directory and converts it to the same set resolution , this helps in image training in Tenserflow. In 'line 24' of the source file the desired output resolution must be mentioned , the directory of the pictures must be mentioned in line 10 of the source code . 
 ### DimesionCalculation.py
-This file calculates size of an object in an image based on the camera viewing angle using Euclidean geometry.
+This file calculates size of an object in an image based on the camera viewing angle using Euclidean geometry. The user must inpput the camera's foeld of view in meters in 'line 90' of the source file . 
+
 
 </p>
 </details>
