@@ -11,7 +11,7 @@ Hardware used for this project:
  Software used: Notepad, Nano and Visual Studio.
  
 ## Description
-This code consists on allowing a user to control a robotic arm in order to grab, lift and carry an object into a designed storage and vice versa. 
+This is a separate branc of a larger project, ACE (Advanced Computer Engineering). This branch of the project involves developing code in order to allow any one user to control a robotic arm remotely as if it was in a robotic colony in Mars. The arm is intended to rotate left and right, rise up and down and adapt to grab and place, for instance, rocks and other objects into a deposit or storage working together with a rover styled remotely controlled car that was developed in another branch. 
 
 ## Visuals
 Images of the robot arms's physical aspects.  
