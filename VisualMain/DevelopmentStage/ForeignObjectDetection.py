@@ -68,6 +68,7 @@ while True:
 		movementCounter = movementCounter+1
 		if(movementCounter>=minCounter):
 			imgname=imgname+1
+			#Setting the directory for saving data
 			cv2.imwrite('./collection/{}.jpg'.format(imgname),frame)
 			movementCounter=0
 
