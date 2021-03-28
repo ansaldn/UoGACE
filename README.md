@@ -22,7 +22,7 @@ Images of the robot arms's physical aspects.
 The Arm has a claw at the tip that can grab things as well as let them go, it can also move according to the needs of the user to redirect the claw in any direction.  
   
 ## Arm Control
-###Python
+### Python
 
 In order to control the Arm a lot of commands are going to be necessary in this case a keyboard will be enough to do all the commands. The keys to press with be:  
 Z / X - clockwise base rotation / counter clockwise base rotation;
@@ -37,7 +37,7 @@ Example of the code:
 
     >>> K_z: usb_arm.BaseClockWise
         
-###C++
+### C++
 The keys used to control the Arm in this language are slightly different but with the same end result however, there is the addition of keys to stop the movement. 
 ; / k - clockwise base rotation / counter clockwise base rotation;
 p / i - close grips(claw) / open grips; 
