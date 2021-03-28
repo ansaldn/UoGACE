@@ -74,6 +74,5 @@ int main(void) {
 		return(1);
 	}
 	
-	printf("Find out more at https://github.com/pddring/robo-arm-pi\n");
 	return 0;
 }
