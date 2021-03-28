@@ -35,6 +35,7 @@ converter will be used to define the lower and upper bounds of the HSV model.
 Figures below show the difference between RGB and HSV colour models. 
 
 RGB Model
+
 ![How to RGB Model](https://github.com/da5905p/UoGACE/blob/main/VisualMain/Images/RGB.png)
 
 </p>
