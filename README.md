@@ -24,13 +24,13 @@ The Arm has a claw at the tip that can grab things as well as let them go, it ca
 ## Arm Control
 ### Python
 
-In order to control the Arm a lot of commands are going to be necessary in this case a keyboard will be enough to do all the commands. The keys to press with be:  
-Z / X - clockwise base rotation / counter clockwise base rotation;
-R / F - close grips(claw) / open grips;
-A / Q - shoulder down / shoulder up;
-S / W - elbow down / elbow up;
-D / E - wrist down / wrist up;
-P - turning LEDs on; 
+In order to control the Arm a lot of commands are going to be necessary in this case a keyboard will be enough to do all the commands. The keys to press with be:    
+Z / X - clockwise base rotation / counter clockwise base rotation;  
+R / F - close grips(claw) / open grips;   
+A / Q - shoulder down / shoulder up;  
+S / W - elbow down / elbow up;  
+D / E - wrist down / wrist up;  
+P - turning LEDs on;   
 V - end the program.
 
 Example of the code:
@@ -38,15 +38,15 @@ Example of the code:
     >>> K_z: usb_arm.BaseClockWise
         
 ### C++
-The keys used to control the Arm in this language are slightly different but with the same end result however, there is the addition of keys to stop the movement. 
-; / k - clockwise base rotation / counter clockwise base rotation;
-p / i - close grips(claw) / open grips; 
-r / v - shoulder down / shoulder up;
-e / c - elbow down / elbow up;
-w / x - wrist down / wrist up;
-  - turning LEDs on; 
-o - stops grips; l - stops base; s - stops wrist; d - stops elbow; f - stops shoulder;
-q - end the program.
+The keys used to control the Arm in this language are slightly different but with the same end result however, there is the addition of keys to stop the movement.   
+; / k - clockwise base rotation / counter clockwise base rotation;  
+p / i - close grips(claw) / open grips;   
+r / v - shoulder down / shoulder up;  
+e / c - elbow down / elbow up;  
+w / x - wrist down / wrist up;  
+  - turning LEDs on;   
+o - stops grips; l - stops base; s - stops wrist; d - stops elbow; f - stops shoulder;  
+q - end the program.  
 
 Example of code:
 
