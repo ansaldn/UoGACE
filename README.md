@@ -22,12 +22,16 @@ The Arm has a claw at the tip that can grab things as well as let them go, it ca
   
 ## Arm Control
 In order to control the Arm a lot of commands are going to be necessary in this case a keyboard will be enough to do all the commands. The keys to press with be:  
-Z / X - clockwise base rotation / counter clockwise base rotation;  R / F - close grips(claw) / open grips;  A / Q - shoulder down / shoulder up;  S / W - elbow down / elbow up;  D / E - wrist down / wrist up;  P - turning LEDs on; V - stop.  
-
+Z / X - clockwise base rotation / counter clockwise base rotation;
+R / F - close grips(claw) / open grips;
+A / Q - shoulder down / shoulder up;
+S / W - elbow down / elbow up;
+D / E - wrist down / wrist up;
+P - turning LEDs on; V - stop.
   
 The code goes as follows:
 
-        K_z: usb_arm.BaseClockWise, 
+        >>> K_z: usb_arm.BaseClockWise, 
         K_x: usb_arm.BaseCtrClockWise,
         K_r: usb_arm.CloseGrips,
         K_f: usb_arm.OpenGrips,
