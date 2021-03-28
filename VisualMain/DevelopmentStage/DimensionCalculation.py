@@ -1,6 +1,6 @@
 #Created By: Ravi Kumar
 #Date Created: 10/03/2021
-#Version 1
+#Version 1.0
 #Description : Calculates the dimension of object in a image based on cameras feild of view
 
 #importing all the dependicies
@@ -84,10 +84,10 @@ for a in cntrs_sort:
 	distA = dist.euclidean((Xtltr, Ytltr), (Xblbr, Yblbr))
 	distB = dist.euclidean((Xtlbl, Ytlbl), (Xtrbr, Ytrbr))
 
-	# when no pixel matric data is availible , calculating matric data as the ratio to 	distance of field of view of camera 
+	# when no pixel matric data is availible , calculating matric data as the ratio to distance of field of view of camera 
 
 	if pixelsPerMetric is None:
-		pixelsPerMetric = distB / 1
+		pixelsPerMetric = distB / 1 # Field of view of camera in meters. 
 
 	# compute the size of the object
 	dimA = distA / pixelsPerMetric
