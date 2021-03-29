@@ -15,14 +15,14 @@ keyctrl.py
 
 Necessary Installation
 
-  '''bash
+  ```bash
   apt-get update
   apt-get install python3-libusb1 python3-pip git
-  '''
+  ```
 
 Branch Installation
 
-  '''bash
+  ```bash
   git clone github.com/da5905p/UoGACE/RobotArm
-  '''
+  ```
 
