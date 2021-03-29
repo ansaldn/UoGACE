@@ -1,5 +1,6 @@
 #Robot to Storage script
 #Created by Goncalo
+#Version 1.0
 
 import usb_arm
 arm = usb_arm.Arm()
