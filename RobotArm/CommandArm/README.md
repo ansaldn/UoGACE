@@ -28,6 +28,6 @@ Branch Installation
 Running the Scripts
 
 ```bash
-python3 RtS.py
+python3 RtS.py or StR.py
 ```
 While being in the Arm branch folder
