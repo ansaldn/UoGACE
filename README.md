@@ -27,7 +27,7 @@ moonBuggy Pi = moonBuggy, Visual, Network
 Bases = Arm, Visual, Network  
 
 ## Description
-The project was sectioned in multiple branches and multiple teams which each received a small task to reach the final result. There are 8 branches: moonBuggy, Arm, Network, Visual, GUI, baseNavigation, testBranch and Environment-&-Dependancies branch. The main goal of this project was to use the available hardware to design and program a functionable robot which, as a short brief, will be able to use movement functions for the base and it will move around collecting what it detects from the storage; after finding the object using image detection, it will be able to grab that object and deposit it onto the car and also from the car to the storage. 
+The project was sectioned in multiple branches and multiple teams which received a small task to reach the final result. There are 8 branches: moonBuggy, Arm, Network, Visual, GUI, baseNavigation, testBranch and Environment-&-Dependancies branch. The main goal of this project was to use the available hardware to design and program a functionable robot which, as a short brief, will be able to use movement functions for the base and it will move around collecting what it detects from the storage; after finding the object using image detection, it will be able to grab that object and deposit it onto the car and also from the car to the storage. 
 
 An image of the robot after it was put together will be attached:
 
