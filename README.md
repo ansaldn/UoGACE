@@ -33,7 +33,7 @@ An image of the robot after it was put together will be attached:
 
 ![image](https://user-images.githubusercontent.com/75362937/112773379-c94b1080-902d-11eb-881e-bcc51d90ea0e.png)
 
-## Arm Control
+### Arm Control
 The main purpose of the Arm branch was to develop a code which will give the user the possiblity to control the arm remotely. The arm is able to rotate in any direction, rise up and down and different other functions. At the end of the physical arm, a claw is present which will be used to grab and also drop things from a certain location to another location, which is the storage, and vice versa.
 
 There are different movements possible: GripsOpen, GripsClose, WristUp, WristDown, ElbowUp, ElbowDown, ShoulderUp, ShoulderDown, Stop etc. 
@@ -57,9 +57,10 @@ And to run the action:
 arm.doActions(rotate)
 ```
 
-## Image Detection
+### Image Detection
 
-## Running the program
+### Network 
+This branch will allow the different devices to connect with each other and at the same time, whenever a device is sending information it will encrypt it and when it receives it, it will decrypt it. The Network is one of the most important one since it makes the whole system working together possible. 
 
 ## Authors and aknowledgements
 
