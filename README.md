@@ -2,7 +2,7 @@
 
 ## Software and Hardware used
 Hardware used for this project: 
- - [x] Single Board Computers : Raspberry Pie, Jetson Nanos, Odriod
+ - [x] Single Board Computers : Raspberry Pi, Jetson Nanos, Odriod
  - [x] Two Robotic Arms
  - [x] Range of sensors and actuator
                                 
