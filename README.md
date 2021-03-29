@@ -31,8 +31,7 @@ The project was sectioned in multiple branches and multiple teams which each rec
 
 An image of the robot after it was put together will be attached:
 
-![image](https://user-images.githubusercontent.com/75362937/112773308-74a79580-902d-11eb-930d-ac1db16de90d.png)
-
+![image](https://user-images.githubusercontent.com/75362937/112773379-c94b1080-902d-11eb-881e-bcc51d90ea0e.png)
 
 ## Arm Control
 The main purpose of the Arm branch was to develop a code which will give the user the possiblity to control the arm remotely. The arm is able to rotate in any direction, rise up and down and different other functions. At the end of the physical arm, a claw is present which will be used to grab and also drop things from a certain location to another location, which is the storage, and vice versa.
