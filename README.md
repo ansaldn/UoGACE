@@ -7,7 +7,6 @@ Hardware used for this project:
  - [x] Range of sensors and actuator
                                 
 Software used for this project: Python
-## Getting Started
 
 ## Quick Install
 To get started, you will need to download this repository to do so, download GitHub onto your raspberry pi using the following command:
@@ -28,8 +27,6 @@ moonBuggy Pi = moonBuggy, Visual, Network
 Bases = Arm, Visual, Network  
 
 ## Description
-
-## Usage
 
 ## Arm Control
 The main purpose of the Arm branch was to develop a code which will give the user the possiblity to control the arm remotely. The arm is able to rotate in any direction, rise up and down and different other functions. At the end of the physical arm, a claw is present which will be used to grab and also drop things from a certain location to another location, which is the storage, and vice versa.
