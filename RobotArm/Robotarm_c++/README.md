@@ -1,6 +1,6 @@
 # README
 
-## The program allows the user to control the OWI-535 ROBOTIC ARM using a keyboard connected to the raspberry pi
+### The program allows the user to control the OWI-535 ROBOTIC ARM using a keyboard connected to the raspberry pi
 
 The official USB interface module of the robot arm works only in windows and do not provide API.  To compile and run these files written in c++. We installed:
 
