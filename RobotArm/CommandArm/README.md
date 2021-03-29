@@ -25,4 +25,9 @@ Branch Installation
   ```bash
   git clone github.com/da5905p/UoGACE/RobotArm
   ```
+Running the Scripts
 
+```bash
+python3 RtS.py
+```
+While being in the Arm branch folder
