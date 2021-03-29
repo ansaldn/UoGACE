@@ -27,7 +27,7 @@ moonBuggy Pi = moonBuggy, Visual, Network
 Bases = Arm, Visual, Network  
 
 ## Description
-The project was sectioned in multiple branches and multiple teams which received a small task to reach the final result. There are 8 branches: moonBuggy, Arm, Network, Visual, GUI, baseNavigation, testBranch and Environment-&-Dependancies branch. The main goal of this project was to use the available hardware to design and program a functionable robot which, as a short brief, will be able to use movement functions for the base and it will move around collecting what it detects from the storage; after finding the object using image detection, it will be able to grab that object and deposit it onto the car and also from the car to the storage. 
+The project was sectioned in multiple branches and multiple teams which received a small task to reach the final result. There are 8 branches: moonBuggy, Arm, Network, Visual, GUI, baseNavigation, testBranch and Environment-&-Dependancies branch. The main goal of this project was to use the available hardware to design and program a functionable robot which, as a short brief, will be able to use movement functions for the base and it will move around collecting an object from the storage and it will be able to grab that object and deposit it onto the car and also from the car to the storage. 
 
 An image of the robot after it was put together will be attached:
 
@@ -58,6 +58,13 @@ arm.doActions(rotate)
 ```
 
 ### Image Detection
+OpenCV is a Python libarary that was used to solve computer vision problems. The team was provided with a camera which will be used to take the RGB colours description of the object and find the HSV colours. To install the OpenCV, install_opencv.sh will need to be run; all the libraries and dependencies will be installed using that file:
+
+```bash
+sudo apt-get install -y libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
+```
+
+Test files are provided to test if the camera is working properly.
 
 ### Network 
 This branch will allow the different devices to connect with each other and at the same time, whenever a device is sending information it will encrypt it and when it receives it, it will decrypt it. The Network is one of the most important one since it makes the whole system working together possible. 
