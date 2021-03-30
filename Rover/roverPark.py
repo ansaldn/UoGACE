@@ -1,13 +1,13 @@
 #roverPark
 #Author: Naa Kotey
 #Date: 17/03/21
-#Version 1.0
+#Version 1.1
 
 #line following/detecting script to initiate parking sequence
 
 import time
-import keyControlRover.py
-import pathCorrection.py
+import keyControlRover
+import pathCorrection
 import RPi.GPIO as gpio
 import math
 
@@ -33,11 +33,12 @@ def base1Park(): #Maneuver to position the rover for unloading
     clicksR = 0
     
     while clicksL <= 9: #half one full rotation
-        spinLeft() #spin 180degrees
-        stop()
+        spinLeft()
         
+    stop()    
     reverse()
     time.delay(0.1)
+    stop()
     parked = True
 
 def base2Park(): #Maneuver to position the rover for loading/unloading
@@ -51,10 +52,11 @@ def base2Park(): #Maneuver to position the rover for loading/unloading
     
     while clicksR <= 9: #half one full rotation
         spinRight() #spin 180degrees
-        stop()
         
+    stop()
     reverse()
     time.delay(0.1)
+    stop()
     parked = True
 
 def lineColour(): #detect line colour (senses reflectivity)
@@ -91,7 +93,7 @@ def main():
         else:
             bay == False
             location = 'Transit'
-            #continue your merry way
+            #continue travel
         time.sleep(0.01)
 
 try:
