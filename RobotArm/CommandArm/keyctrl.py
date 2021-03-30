@@ -1,4 +1,5 @@
-"""key_ctrl - key based arm controller"""
+## Blanca and Joao
+
 from functools import partial
 import usb_arm
 import pygame
