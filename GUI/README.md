@@ -12,6 +12,7 @@ Documnentation of the GUI process and Code implementation for the ACE Project.
 This is the GUI branch of the larger project, ACE(Advanced Computer Engineering). The GUI branch of the project involves; 
   - Designing models for a GUI application to allow for functionality of the different branches of the project.
   - Developing Code to allow for implementation of designed models into a functional application.
+
 The GUI for the project is inteded to be applied to a one app tablet in which users can sign in and control different aspects of the project over a long distance. 
 For example, the application must allow for movement control of the buggy in various ways such as driving, controlling the arm, and turning the camera.
 
