@@ -79,5 +79,5 @@ key = Fernet.generate_key()
 The command will provide a URL-safe base64-encoded 32-byte key.
 
 ## Authors and aknowledgements
+The project was developed by: David E Ansa, Maher Qawash, Md Jafrul Hasan Tufael, Ravi Kumar, Regan J Smith, Joao Pedro P Dos Reis, Blanca Urechiatu, Goncalo Alexandre Nunes, Joan Garcia Castro, Shahd R A F Aldaihani, Naa A Kotey, Ross K Barret. 
 
-## License
