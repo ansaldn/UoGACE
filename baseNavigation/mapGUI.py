@@ -2,19 +2,17 @@
 #baseNavigation
 #Created by: Naa Kotey
 #Date 09/02/21
-#Version 1.1
+#Version 1.2
 
 from tkinter import *
 import tkinter as tk
+#import autonomousRover
 
-#create popup window to display info
-def popUp():
-    newWindow = tk.Toplevel()
-    
-canvas = Canvas(width=1200, height=600, bg='gray89') #create window
+
+canvas = Canvas(width=1200, height=600, bg='gray89')
 canvas.pack(expand=YES, fill=BOTH)
 
-############# perimeter   #################
+#perimeter
 #line format(x1,y1, x2, y2)
 canvas.create_line(160, 70, 1100, 70, width = 6) #top line perimeter
 canvas.create_line(160, 70, 130, 120, width = 6) #diagonal top left
@@ -36,7 +34,7 @@ canvas.create_polygon(
     width = 3,
     fill = 'antique white')
 
-############   GRIDLINES    ###########
+#GRIDLINES
 canvas.create_line(130, 120, 1150, 120, width = 3, fill ='white') #x line
 canvas.create_line(130, 520, 1150, 520, width = 3, fill ='white') #x line
 canvas.create_line(130, 170, 1150, 170, width = 3, fill ='white') #x line
@@ -68,7 +66,7 @@ canvas.create_line(1010, 70, 1010, 550, width = 3, fill ='white') #y line
 canvas.create_line(1060, 70, 1060, 550, width = 3, fill ='white') #y line
 canvas.create_line(1100, 70, 1100, 550, width = 3, fill ='white') #y line
 
-###########   Compound Structures   #########
+####  Compound Structures ###
 canvas.pack()
 base1 = PhotoImage(file="base sprite.png") #base1
 canvas.create_image(250, 310, image=base1)
@@ -89,7 +87,7 @@ canvas.pack()
 homeCentral = PhotoImage(file="base sprite.png") #Home
 canvas.create_image(620, 490, image=homeCentral)
 
-########  text labels ##########
+### labels ###
 canvas.create_text(
     610,430,
     font = "Times 12 bold",
@@ -110,44 +108,75 @@ canvas.create_text(
     font = "Times 25 bold",
     text = "ACE Compound")
 
-####### Images ###########
+
 #sprite of the buggy
 canvas.pack()
 buggy = PhotoImage(file="baseNav sprite.png")
-canvas.create_image(500, 340, image=buggy)
+canvas.create_image(500, 340, image=buggy, tag ='buggy')
 
+def popUp():
+    newWindow = tk.Toplevel()
 
-########## Buttons #########
+def getBase1Dist():
+    popUp()    
+    
+def getBase2Dist():
+    popUp()    
+    
+
+'''def getPos(): #get position of buggy
+    posX = 
+    posY =    
+    return posX
+    return posY'''
+
+def updateMap(): #update the map with the new position of buggy
+    getPos()
+    canvas.delete('buggy')
+    canvas.create_image(posX, posY, image=buggy, tag ='buggy')
+   
+
+def plotObstacle():
+    #if wayClear == False:
+        getPos()
+        canvas.pack()
+        obstacle = PhotoImage(file="obstacle.png") 
+        canvas.create_image(posX, posY, image=obstacle, tag = 'obs')
+        print("obstacle plotted")
+
+        
+####  buttons  ####
 updateMap = Button(
     text='Update Map', #update map to current location
     font="Times 12",
-    #command=lambda:)
+    command= updateMap()
     )
  
 updateMap.pack(side=LEFT, fill=X, expand=True)
 
-base1Dist = Button(
-    text='Find Distance from Base1', #display Distance from Base1
+base1DistBut = Button(
+    text='Find Distance from Base1', #display Distance from Base2
     font="Times 12",
-    command = popUp
+    command = getBase1Dist()
     )
  
-base1Dist.pack(side=LEFT, fill=X, expand=True)
+base1DistBut.pack(side=LEFT, fill=X, expand=True)
 
-base2Dist = Button(
+base2DistBut = Button(
     text='Find Distance from Base2', #display Distance from Base2
     font="Times 12",
-    command = popUp
+    command = getBase2Dist()
     )
  
-base2Dist.pack(side=LEFT, fill=X, expand=True)
+base2DistBut.pack(side=LEFT, fill=X, expand=True)
 
-mapReset = Button( #clear obstacles marked on map
+mapReset = Button( #clearing obstacles on map
     text='Reset Map',
     font="Times 12",
     command=lambda:canvas.delete("obs")
     )
  
 mapReset.pack(side=LEFT, fill=X, expand=True)
+           
 
 mainloop()
