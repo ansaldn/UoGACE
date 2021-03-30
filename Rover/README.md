@@ -3,11 +3,14 @@
 ## Description
 Scripts for various control functions of the cargo transportation Rover used on the Compound.
 
-## Hardware 
+## Hardware Used
 - Ultimate Initio Chassis kit for Raspberry Pi (https://shop.4tronix.co.uk/products/ultimate-initio-robot-kit-for-raspberry-pi?variant=36994821441)
 
 - 4Tronix RoboHAT
 - Raspberry Pi 3
+
+![image](https://user-images.githubusercontent.com/73899520/112980812-42dc1f00-9152-11eb-9e4c-d2ed61aa816c.png)
+
 
 ## Installation
 After assembly of the RoboHAT and chassis, open linux terminal and run the following commands to test sample code from the manufacturers of roboHAT. 
@@ -60,7 +63,7 @@ Key Functions Include:
 ```python3
 def lineColour()
 ```
-Determines the colour of the parking bay based on the expected IR reflectance value
+Determines whether or not the Rover has reached the parking bay, based on the expected IR reflectance value
 
 ### pathCorrection.py
 - Corrects the path of the Rover if it's traversal starts becoming crooked
@@ -68,8 +71,5 @@ Determines the colour of the parking bay based on the expected IR reflectance va
 - Ideally for use right before parking
 
 
-## Contributing
-
 ## Authors and Acknowledgement
 
-## License
