@@ -90,12 +90,18 @@ As for the last script is the one that uses the light following sensors; it sees
 ![image](https://user-images.githubusercontent.com/75362937/112965346-166bd700-9141-11eb-91ec-d37bd28efe00.png)
 
 ### GUI
-The graphical user ingerface was devloped to allow different users to sign in and control different aspects of the projects such as: movement control of the buggy, movement control of the arm or turning the camera. 
+The graphical user interface was devloped to allow different users to sign in and control different aspects of the projects such as: movement control of the buggy, movement control of the arm or turning the camera. 
 
 There are different commands that can be used such as: the login button, sign out button, network status & system status, report issue (used to report any issues that the user may face when using the robot) and emergency which is a button that will be used to ensure safety of the system when something goes wrong. 
 
 A link to the wireframe design for the GUI can be found here: https://framer.com/share/ACE-GUI--uqXDT6NO8jMDT6XoKdXz/Aj17HOaoW
 
 ## Authors and aknowledgements
-The project was developed by: David E Ansa, Maher Qawash, Md Jafrul Hasan Tufael, Ravi Kumar, Regan J Smith, Joao Pedro P Dos Reis, Blanca Urechiatu, Goncalo Alexandre Nunes, Joan Garcia Castro, Shahd R A F Aldaihani, Naa A Kotey, Ross K Barret. 
+The project was developed by: 
+ - [x] Arm Branch: Md Jafrul Hasan Tufael, Joao Pedro P Dos Reis, Goncalo Alexandre Nunes, Joan Garcia Castro, Blanca Urechiatu.
+ - [x] MoonBuggy Branch: Naa A Kotey.
+ - [x] Network Branch: David E Ansa.
+ - [x] Visual Branch: Maher Qawash, Ravi Kumar, Shahd R A F Aldaihani, Ross K Barret.
+ - [x] GUI Branch: David E Ansa, Regan J Smith, Marwan Jamal.
+
 
