@@ -15,3 +15,5 @@ To download the code type: `Git clone github.com/da5905p/UoGACE/RobotArm/Robotar
 Go to `cd robotarm_c++` and compile the code using `make`
 
 Finally, to run the program and control the robot arm with the keyboard, type:  `sudo ./robot`
+
+This project is based on the research posted on (https://notbrainsurgery.livejournal.com/38622.html)
