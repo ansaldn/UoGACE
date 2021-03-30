@@ -78,6 +78,17 @@ key = Fernet.generate_key()
 
 The command will provide a URL-safe base64-encoded 32-byte key.
 
+### Moonbuggy
+There are different scripts for this branch: one being a key control which will permit the use of the robot by keyboard (movement, turning); the autonomous script which represents the obstacle avoidance (it is using the infrared sensor to check if there is any object in a range of 5 cm that needs to be avoided). If an object is detected, it will stop and move either left or right, after deciding which path is clear. 
+
+Another script named Path correction was implemented. It has two sensors on both side of the wheels and by the use of this you can tell if the number of turns on each wheel does not balance. If there is a difference of more than 3 turns, the script will make the robot stop and then turn the opposite side.
+
+As for the last script is the one that uses the light following sensors; it sees the tape on the floor and it will do a 180 degrees turn and backs into the parking bay that is marked up with tape.
+
+![image](https://user-images.githubusercontent.com/75362937/112965168-e9b7bf80-9140-11eb-9fd5-8cc361012669.png)
+
+
+
 ## Authors and aknowledgements
 The project was developed by: David E Ansa, Maher Qawash, Md Jafrul Hasan Tufael, Ravi Kumar, Regan J Smith, Joao Pedro P Dos Reis, Blanca Urechiatu, Goncalo Alexandre Nunes, Joan Garcia Castro, Shahd R A F Aldaihani, Naa A Kotey, Ross K Barret. 
 
