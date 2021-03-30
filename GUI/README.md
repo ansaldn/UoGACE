@@ -69,7 +69,7 @@ To allow the GUI to seamlessly Change pages a function was implemented within th
 ### tkinter
 Tkinter is a libary within Python that contains widgets.
 
-This is a link to the Tkinter Documentation which helped in implementation of code.
+This is a link to the Tkinter Documentation which helped in implementation of code:
   https://docs.python.org/3/library/tkinter.html
 
 
