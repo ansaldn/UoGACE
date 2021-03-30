@@ -34,12 +34,19 @@ Visual Representation of the Pages within the application as implemented within 
 Navigation within the application is done through buttons. 
 
 
-- Click To Login : This button checks the entry box above for the correct password and will change the frame to the Main Page if the password is correct. If the Password is incorrect the the user will be presented with an error message stating that and "Incorrect Password Has Been Entered"
+- Click To Login : This button checks the entry box above for the correct password and will change the frame to the Main Page if the password is correct. If the Password is incorrect the the user will be presented with an error message stating that and "Incorrect Password Has Been Entered".
+
 - Sign Out : Each page apart from the splash and the login have a "Sign Out" button which is always located in the bottom left hand of the screen, upon clicking this button the user will be sent back to the login page and have to re-enter their password to gain access.
+
 - Buggy Control & Base Control : These are two buttons bring you to their respective pages that share similar properties and widgets, they are distinguishable by the text on the button that displays the name. Both of these Pages includes a "Sign Out" button and a "Back to Main Page" button.
+
 - Network Status & System Status : These two pages are also similar and work the same way each having an independant button that takes you to the assigned page, they are distinguishable by the text on the button that displays the name. Both of these Pages includes a "Sign Out" button and a "Back to Main Page" button.
 
 - Back To Main Page : This button is on the Four main functionality pages, this button will return the user to the main control page and allows the to then select another page to goto.
+
+- Report Issue : This button is included on the four main functionality pages, when clicked it will produce a new window ontop of the current window with a form that the user can fill out to breifly report an issue they're having with the application.
+
+- Emergency : This Button would have been used with hardware functionality as a measure to ensure safety of the system when something wrong occurs, in the current GUI application it has no use.
 
 
 
