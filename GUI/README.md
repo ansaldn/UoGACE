@@ -50,7 +50,22 @@ Navigation within the application is done through buttons.
 
 ## Code
 ### Python
+    To allow the GUI to seamlessly Change pages a function was implemented within the app class that stored a list of values. This function could later be called with a value to update the current frame to a new frame, meaning that pages could be assigned as their own classes with initialisers so that when the frame is changed to that class they would load their widgets and functions. An example of this code is show below
+    
+    # Assign a list within class app with name frames.
+            self.frames = {}
+            # Store the class names of the pages as values in the list of frames.
+        for F in (SplashPage, LoginPage, MainPage, BuggyControlPage,BaseControlPage, NetworkStatusPage, SystemStatusPage):
+            frame = F(window, self)
+            self.frames[F] = frame
+            frame.grid(row=0, column=0, sticky="nsew")
+        # Load the first page
+        self.show_frame(SplashPage)
 
+    # Change to the desired frame by using tkraise to bring that frame to the front of all frames.
+    def show_frame(self, frameName):
+        frame = self.frames[frameName]
+        frame.tkraise()
 
 
 
