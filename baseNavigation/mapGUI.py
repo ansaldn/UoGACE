@@ -2,54 +2,152 @@
 #baseNavigation
 #Created by: Naa Kotey
 #Date 09/02/21
-#Version 1.0
-
-#Basic shell of compound structure
+#Version 1.1
 
 from tkinter import *
+import tkinter as tk
 
-canvas = Canvas(width=1200, height=600, bg='white')
+#create popup window to display info
+def popUp():
+    newWindow = tk.Toplevel()
+    
+canvas = Canvas(width=1200, height=600, bg='gray89') #create window
 canvas.pack(expand=YES, fill=BOTH)
 
-
-#perimeter
+############# perimeter   #################
 #line format(x1,y1, x2, y2)
-canvas.create_line(110, 70, 1050, 70, width = 3) #top line prtimeter
-canvas.create_line(110, 70, 80, 120, width = 3) #diagonal top left
-canvas.create_line(110, 550, 80, 520, width = 3) #diagonal bottom left
-canvas.create_line(1050, 70, 1100, 120, width = 3) #diagonal top right
-canvas.create_line(1050, 550, 1100, 510, width = 3) #diagonal bottom right
-canvas.create_line(80, 120, 80, 520, width = 3)# left line perimeter
-canvas.create_line(1100, 120, 1100, 510, width = 3)#right line perimeter
-canvas.create_line(110, 550, 1050, 550, width = 3) #bottom line
+canvas.create_line(160, 70, 1100, 70, width = 6) #top line perimeter
+canvas.create_line(160, 70, 130, 120, width = 6) #diagonal top left
+canvas.create_line(160, 550, 130, 520, width = 6) #diagonal bottom left
+canvas.create_line(1100, 70, 1150, 120, width = 6) #diagonal top right
+canvas.create_line(1100, 550, 1150, 510, width = 6) #diagonal bottom right
+canvas.create_line(130, 120, 130, 520, width = 6)# left line perimeter
+canvas.create_line(1150, 120, 1150, 510, width = 6)#right line perimeter
+canvas.create_line(160, 550, 1100, 550, width = 6) #bottom line 
 
+canvas.create_polygon(
+    130, 120,
+    160, 70, 1100, 70,
+    1150, 120,
+    1150, 510,
+    1100, 550,
+    160, 550,
+    130, 520,
+    width = 3,
+    fill = 'antique white')
 
-#Compound Structures
-canvas.create_rectangle(150, 290, 230, 360, width=2, fill='grey')#base1
-canvas.create_rectangle(940, 290, 1020, 360, width=2, fill='grey')#base2
-canvas.create_rectangle(350, 550, 800, 470, width=2, fill='grey')#home
+############   GRIDLINES    ###########
+canvas.create_line(130, 120, 1150, 120, width = 3, fill ='white') #x line
+canvas.create_line(130, 520, 1150, 520, width = 3, fill ='white') #x line
+canvas.create_line(130, 170, 1150, 170, width = 3, fill ='white') #x line
+canvas.create_line(130, 220, 1150, 220, width = 3, fill ='white') #x line
+canvas.create_line(130, 270, 1150, 270, width = 3, fill ='white') #x line
+canvas.create_line(130, 320, 1150, 320, width = 3, fill ='white') #x line
+canvas.create_line(130, 370, 1150, 370, width = 3, fill ='white') #x line
+canvas.create_line(130, 420, 1150, 420, width = 3, fill ='white') #x line
+canvas.create_line(130, 470, 1150, 470, width = 3, fill ='white') #x line
+canvas.create_line(130, 520, 1150, 520, width = 3, fill ='white') #x line
+canvas.create_line(160, 70, 160, 550, width = 3, fill ='white') #y line
+canvas.create_line(210, 70, 210, 550, width = 3, fill ='white') #y line
+canvas.create_line(260, 70,260, 550, width = 3, fill ='white') #y line
+canvas.create_line(310, 70, 310, 550, width = 3, fill ='white') #y line
+canvas.create_line(360, 70, 360, 550, width = 3, fill ='white') #y line
+canvas.create_line(410, 70, 410, 550, width = 3, fill ='white') #y line
+canvas.create_line(460, 70, 460, 550, width = 3, fill ='white') #y line
+canvas.create_line(510, 70, 510, 550, width = 3, fill ='white') #y line
+canvas.create_line(560, 70, 560, 550, width = 3, fill ='white') #y line
+canvas.create_line(610, 70, 610, 550, width = 3, fill ='white') #y line
+canvas.create_line(660, 70, 660, 550, width = 3, fill ='white') #y line
+canvas.create_line(710, 70, 710, 550, width = 3, fill ='white') #y line
+canvas.create_line(760, 70, 760, 550, width = 3, fill ='white') #y line
+canvas.create_line(810, 70, 810, 550, width = 3, fill ='white') #y line
+canvas.create_line(860, 70, 860, 550, width = 3, fill ='white') #y line
+canvas.create_line(910, 70, 910, 550, width = 3, fill ='white') #y line
+canvas.create_line(960, 70, 960, 550, width = 3, fill ='white') #y line
+canvas.create_line(1010, 70, 1010, 550, width = 3, fill ='white') #y line
+canvas.create_line(1060, 70, 1060, 550, width = 3, fill ='white') #y line
+canvas.create_line(1100, 70, 1100, 550, width = 3, fill ='white') #y line
 
+###########   Compound Structures   #########
+canvas.pack()
+base1 = PhotoImage(file="base sprite.png") #base1
+canvas.create_image(250, 310, image=base1)
 
-#labels
+canvas.pack()
+base2 = PhotoImage(file="base sprite.png") #base2
+canvas.create_image(1015, 310, image=base2)
+
+canvas.pack()
+homeL = PhotoImage(file="base sprite (1).png") #Home
+canvas.create_image(510, 500, image=homeL)
+
+canvas.pack()
+homeR = PhotoImage(file="base sprite (1).png") #Home
+canvas.create_image(730, 500, image=homeR)
+
+canvas.pack()
+homeCentral = PhotoImage(file="base sprite.png") #Home
+canvas.create_image(620, 490, image=homeCentral)
+
+########  text labels ##########
 canvas.create_text(
-    550,440,
+    610,430,
     font = "Times 12 bold",
-    text = "Home")
+    text = "HOME")
 
 canvas.create_text(
-    180,370,
+    240,380,
     font = "Times 12 bold",
-    text = "Base1")
+    text = "BASE1")
 
 canvas.create_text(
-    970,370,
+    1020,380,
     font = "Times 12 bold",
-    text = "Base2")
+    text = "BASE2")
 
 canvas.create_text(
-    550,40,
+    600,40,
     font = "Times 25 bold",
     text = "ACE Compound")
 
-  
+####### Images ###########
+#sprite of the buggy
+canvas.pack()
+buggy = PhotoImage(file="baseNav sprite.png")
+canvas.create_image(500, 340, image=buggy)
+
+
+########## Buttons #########
+updateMap = Button(
+    text='Update Map', #update map to current location
+    font="Times 12",
+    #command=lambda:)
+    )
+ 
+updateMap.pack(side=LEFT, fill=X, expand=True)
+
+base1Dist = Button(
+    text='Find Distance from Base1', #display Distance from Base1
+    font="Times 12",
+    command = popUp
+    )
+ 
+base1Dist.pack(side=LEFT, fill=X, expand=True)
+
+base2Dist = Button(
+    text='Find Distance from Base2', #display Distance from Base2
+    font="Times 12",
+    command = popUp
+    )
+ 
+base2Dist.pack(side=LEFT, fill=X, expand=True)
+
+mapReset = Button( #clear obstacles marked on map
+    text='Reset Map',
+    font="Times 12",
+    command=lambda:canvas.delete("obs")
+    )
+ 
+mapReset.pack(side=LEFT, fill=X, expand=True)
+
 mainloop()
