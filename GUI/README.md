@@ -69,7 +69,7 @@ To allow the GUI to seamlessly Change pages a function was implemented within th
 ### tkinter
 Tkinter is a libary within Python that contains widgets. 
 
-An Example peice of code that shows Button Functionality using the tkinter button widget.
+An Example peice of code that shows Button Functionality using the tkinter button widget. This example shows some of the properties that are avaible for use with tkinter widgets, the "top_frame" refers to another widget that is a frame used for place widgets inside for better organisation. "Text=" allows you to write text within the widget, you can assign the size of the widget with height and width as well as add a pixel padding around the outside of the widget with "padx & pady". The background of the widget has been set using "bg=" and can take names of colours aswell as hex colours.
 
     goto_buggy_control = tk.Button(top_frame, text="Buggy Control", width=37, height=16, padx=5,pady=5,bg="#006bb3",
     command=lambda:controller.show_frame(BuggyControlPage))
