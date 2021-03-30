@@ -8,6 +8,8 @@ Usage -
 Trouble:
 "NO back end found" - you need to install a libusb driver on your system.
 """
+
+#lisusb library
 import usb.core
 from time import sleep
 
@@ -16,35 +18,35 @@ class BitPattern(object):
     """A bit pattern to send to a robot arm"""
     __slots__ = ['arm', 'base', 'led']
 
+#arm,base,led slots
     def __init__(self, arm, base, led):
         self.arm = arm
         self.base = base
         self.led = led
-
+	
+#initializing the slots
     def __iter__(self):
         return iter([self.arm, self.base, self.led])
 
+#time command
     def __getitem__(self, item):
         return [self.arm, self.base, self.led][item]
 
+#more than 1 command
     def __or__(self, other):
         return BitPattern(self.arm | other.arm,
                           self.base | other.base,
                           self.led | other.led)
-    
-    def __eq__(self, other):
-        return self.arm == other.arm and self.base == other.base and self.led == other.led
 
-    def __repr__(self):
-        return "<BitPattern arm:%s base:%s led:%s>" % (self.arm, self.base, self.led)
+#bit table
+#1,2 grip
+#4,8 Wrist
+#10,20 Elbow
+#40, 80 Shoulder
+#0,1 0,2 baseclock
 
-    def __str__(self):
-        return self.__repr__()    
-
-GripsClose =       BitPattern(1, 0, 0)
-CloseGrips =       GripsClose
-GripsOpen =        BitPattern(2, 0, 0)
-OpenGrips =        GripsOpen
+GripsClose =       BitPattern(1, 0, 0) 
+GripsOpen =        BitPattern(2, 0, 0) 
 Stop =             BitPattern(0, 0, 0)
 WristUp =          BitPattern(0x4, 0, 0)
 WristDown =        BitPattern(0x8, 0, 0)
@@ -62,13 +64,14 @@ class Arm(object):
     __slots__ = ['dev']
 
     def __init__(self):
-        self.dev = usb.core.find(idVendor=0x1267)
+        self.dev = usb.core.find(idVendor=0x1267) #usb library
         self.dev.set_configuration()
 
     def tell(self, msg):
         """Send a USB messaqe to the arm"""
         self.dev.ctrl_transfer(0x40, 6, 0x100, 0, msg)
-
+	
+#exception stop
     def safe_tell(self, fn):
         """Send a message to the arm, with a stop
         to ensure that the robot stops in the
@@ -78,7 +81,7 @@ class Arm(object):
         except:
             self.tell(Stop)
             raise
-
+#move function with bitpattern and time
     def move(self, pattern, time=1):
         """Perform a pattern move with timing and stop"""
         try:
@@ -86,7 +89,8 @@ class Arm(object):
         	sleep(time)
         finally:
         	self.tell(Stop)
-
+		
+#functions for outside script usage
     def doActions(self, actions):
         """Params: List of actions - each is a list/tuple of BitPattern and time
          (defaulting to 1 if not set)"""
@@ -105,6 +109,7 @@ class Arm(object):
                 time = 1
             self.move(action[0], time)
 
+#basic built in movement
 def makeGrabAndMove(baseDir):
 	return [[CloseGrips, 1.1],
                 [ShoulderUp | ElbowUp | WristDown | baseDir],
@@ -112,6 +117,7 @@ def makeGrabAndMove(baseDir):
                 [ShoulderDown | ElbowDown | WristUp | baseDir],
                 [OpenGrips]]
 
+#move basic movement
 blink = [[LedOn, 0.5], [Stop, 0.5]] * 3
 block_left = makeGrabAndMove(BaseClockWise) + blink
 block_right = makeGrabAndMove(BaseCtrClockWise) + blink
