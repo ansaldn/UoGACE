@@ -50,7 +50,7 @@ Navigation within the application is done through buttons.
 
 ## Code
 ### Python
-    To allow the GUI to seamlessly Change pages a function was implemented within the app class that stored a list of values. This function could later be called with a value to update the current frame to a new frame, meaning that pages could be assigned as their own classes with initialisers so that when the frame is changed to that class they would load their widgets and functions. An example of this code is show below
+To allow the GUI to seamlessly Change pages a function was implemented within the app class that stored a list of values. This function could later be called with a value to update the current frame to a new frame, meaning that pages could be assigned as their own classes with initialisers so that when the frame is changed to that class they would load their widgets and functions. An example of this code is show below
     
     # Assign a list within class app with name frames.
             self.frames = {}
