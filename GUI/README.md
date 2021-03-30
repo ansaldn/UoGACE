@@ -75,7 +75,7 @@ An Example peice of code that shows Button Functionality using the tkinter butto
     command=lambda:controller.show_frame(BuggyControlPage))
     
 
-This is a link to the Tkinter Documentation which helped in implementation of code:
+This is a link to the Tkinter Documentation which was used for implementation of code:
   https://docs.python.org/3/library/tkinter.html
 
 ## Aknowledgements
