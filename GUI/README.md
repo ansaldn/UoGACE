@@ -80,5 +80,7 @@ This is a link to the Tkinter Documentation which helped in implementation of co
 
 ## Aknowledgements
 The code was produced by: Regan Smith, David Ansa
+
 The Wire Frame Design Was produced by: David Ansa
+
 The README was produced by: Regan Smith
