@@ -25,6 +25,8 @@ https://framer.com/share/ACE-GUI--uqXDT6NO8jMDT6XoKdXz/Aj17HOaoW
 
 ## Visuals
 
+Visual Representation of the Pages within the application as implemented within the code using tkinter.
+
 ![image](https://user-images.githubusercontent.com/75033878/112982932-f80fd680-9154-11eb-804c-b6cc4160b63d.png)
 
 
