@@ -1,7 +1,7 @@
 #written by : SHAHD R A F ALDAIHANI
 import cv2
 
-FC = cv2.CascadeClassifier('haarcascade_frontalface_default.xml')
+FC = cv2.CascadeClassifier('h_f_default.xml')
 # Read the input image
 #i= cv2.imread('t.png')
 cap = cv2.VideoCapture('t.mp4')
