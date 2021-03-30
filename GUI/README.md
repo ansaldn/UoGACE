@@ -3,7 +3,9 @@ Documnentation of the GUI process and Code implementation for the ACE Project.
 
 ## Software Used
 -[x] Design Tool : Framer.io
+
 -[x] Software : Visual Studio, Visual Studio Code, Pycharm, Sublime Text
+
 -[x] Language : Python
               - libraries : tkinter, csv, Pillow
 ## Description
