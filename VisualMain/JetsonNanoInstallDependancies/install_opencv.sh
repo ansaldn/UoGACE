@@ -1,3 +1,9 @@
+#Sourced From
+#Author ericyu, 2020. Seed Studio. [Online] 
+#Available at: https://www.seeedstudio.com/blog/2020/06/01/install-opencv-on-jetson-nano-developer-kit-b01-m/
+#[Accessed 01 02 2021].
+
+
 #!/bin/bash
 #
 # Copyright (c) 2018, NVIDIA CORPORATION.  All rights reserved.
