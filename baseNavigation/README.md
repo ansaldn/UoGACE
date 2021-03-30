@@ -7,7 +7,6 @@ The scripts will be uploaded to the Rover to create its own positioning system, 
 
 Further developments will see the Rover be able to update the map with obstacles encountered along the way
 
-Techniques explored will be RSSI to triangulate between the wireless access points
 
 ## Installation and Setup
 
@@ -21,6 +20,6 @@ The system generates a map of the compound and displays the current location of 
 
 ![image](https://user-images.githubusercontent.com/73899520/112980109-5aff6e80-9151-11eb-8df3-8884159903f4.png)
 
-### RSSI Pi
+
 
 
