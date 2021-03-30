@@ -70,6 +70,7 @@ To allow the GUI to seamlessly Change pages a function was implemented within th
 Tkinter is a libary within Python that contains widgets. 
 
 An Example peice of code that shows Button Functionality using the tkinter button widget.
+
               goto_buggy_control = tk.Button(top_frame, text="Buggy Control", width=37, height=16, padx=5,pady=5,bg="#006bb3",
                                         command=lambda:controller.show_frame(BuggyControlPage))
     
