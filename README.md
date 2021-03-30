@@ -66,6 +66,8 @@ sudo apt-get install -y libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev
 
 Test files are provided to test if the camera is working properly.
 
+For more informations regarding the Image Detection branch, follow this link: https://github.com/da5905p/UoGACE/tree/Visual/GUI
+
 ### Network 
 This branch will allow the different devices to connect with each other and at the same time, whenever a device is sending information it will encrypt it and when it receives it, it will decrypt it. The Network is one of the most important one since it makes the whole system working together possible. 
 
@@ -86,6 +88,13 @@ Another script named Path correction was implemented. It has two sensors on both
 As for the last script is the one that uses the light following sensors; it sees the tape on the floor and it will do a 180 degrees turn and backs into the parking bay that is marked up with tape.
 
 ![image](https://user-images.githubusercontent.com/75362937/112965346-166bd700-9141-11eb-91ec-d37bd28efe00.png)
+
+### GUI
+The graphical user ingerface was devloped to allow different users to sign in and control different aspects of the projects such as: movement control of the buggy, movement control of the arm or turning the camera. 
+
+There are different commands that can be used such as: the login button, sign out button, network status & system status, report issue (used to report any issues that the user may face when using the robot) and emergency which is a button that will be used to ensure safety of the system when something goes wrong. 
+
+A link to the wireframe design for the GUI can be found here: https://framer.com/share/ACE-GUI--uqXDT6NO8jMDT6XoKdXz/Aj17HOaoW
 
 ## Authors and aknowledgements
 The project was developed by: David E Ansa, Maher Qawash, Md Jafrul Hasan Tufael, Ravi Kumar, Regan J Smith, Joao Pedro P Dos Reis, Blanca Urechiatu, Goncalo Alexandre Nunes, Joan Garcia Castro, Shahd R A F Aldaihani, Naa A Kotey, Ross K Barret. 
