@@ -29,6 +29,21 @@ Visual Representation of the Pages within the application as implemented within 
 
 ![image](https://user-images.githubusercontent.com/75033878/112982932-f80fd680-9154-11eb-804c-b6cc4160b63d.png)
 
+## Navigation
+
+Navigation within the application is done through buttons. 
+
+
+- [x] Click To Login : This button checks the entry box above for the correct password and will change the frame to the Main Page if the password is correct. If the Password is incorrect the the user will be presented with an error message stating that and "Incorrect Password Has Been Entered"
+- [x] Sign Out : Each page apart from the splash and the login have a "Sign Out" button which is always located in the bottom left hand of the screen, upon clicking this button the user will be sent back to the login page and have to re-enter their password to gain access.
+- [x] Buggy Control & Base Control - These are two buttons bring you to their respective pages that share similar properties and widgets. Both of these Pages includes a "Sign Out" button and a "Back to Main Page" button.
+
+
+
+- [x] Back To Main Page : This button is on the Four main functionality pages, these pag
+
+
+
 
 
 
