@@ -23,5 +23,17 @@ To Develop our wire frame diagrams for the application we used a program called 
 A link to the wireframe design for the GUI can be found here:
 https://framer.com/share/ACE-GUI--uqXDT6NO8jMDT6XoKdXz/Aj17HOaoW
 
+## Visuals
+![image](https://user-images.githubusercontent.com/75033878/112982597-92234f00-9154-11eb-883d-71479f4f9909.png)
+
+
+![image](https://user-images.githubusercontent.com/75033878/112982573-8a63aa80-9154-11eb-8e49-a1465d336c2f.png)
+
+![image](https://user-images.githubusercontent.com/75033878/112982540-846dc980-9154-11eb-899e-0ee94beb8069.png)
+
+![image](https://user-images.githubusercontent.com/75033878/112982619-95b6d600-9154-11eb-9ff5-5bf812831f2b.png)
+
+![image](https://user-images.githubusercontent.com/75033878/112982646-9c454d80-9154-11eb-8c2e-1e1e42f5133b.png)
+
 
 
