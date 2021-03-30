@@ -48,7 +48,8 @@ Navigation within the application is done through buttons.
 
 - Emergency : This Button would have been used with hardware functionality as a measure to ensure safety of the system when something wrong occurs, in the current GUI application it has no use.
 
-
+## Code
+### Python
 
 
 
