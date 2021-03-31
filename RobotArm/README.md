@@ -1,4 +1,4 @@
-# Advanced Computer Engineering Project
+# ACE's Arm Branch
 Documentation of the python code used in the Arm Branch of the ACE project.
 
 ## Software and Hardware used
