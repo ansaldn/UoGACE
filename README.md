@@ -27,6 +27,8 @@ moonBuggy Pi = moonBuggy, Visual, Network
 Bases = Arm, Visual, Network  
 
 ## Description
+This project consisted in creating software and assembling hardware in order to make an Arm and a Car that could be used working together, automated or remotely controlled, where the Car/Rover would be transporting objects which can be thought as resources for examination in another planet or resources needed to work in different colonies. The Arm would be a standing tool that took any objects from the transports to a storage.
+
 The project was sectioned in multiple branches and multiple teams which received a small task to reach the final result. There are 8 branches: moonBuggy, Arm, Network, Visual, GUI, baseNavigation, testBranch and Environment-&-Dependancies branch. The main goal of this project was to use the available hardware to design and program a functionable robot which, as a short brief, will be able to use movement functions for the base and it will move around collecting an object from the storage and it will be able to grab that object and deposit it onto the car and also from the car to the storage. 
 
 An image of the robot after it was put together will be attached:
