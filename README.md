@@ -31,6 +31,8 @@ This project consisted in creating software and assembling hardware in order to 
 
 The project was sectioned in multiple branches and multiple teams which received a small task to reach the final result. There are 8 branches: moonBuggy, Arm, Network, Visual, GUI, baseNavigation, testBranch and Environment-&-Dependancies branch. The main goal of this project was to use the available hardware to design and program a functionable robot which, as a short brief, will be able to use movement functions for the base and it will move around collecting an object from the storage and it will be able to grab that object and deposit it onto the car and also from the car to the storage. 
 
+Everything can be controlled using a keyboard however, in future iterations of the project it is possible to make full use of the pygame library in order to instead use joysticks or an application on a tablet.
+
 An image of the robot after it was put together will be attached:
 
 ![image](https://user-images.githubusercontent.com/75362937/112773379-c94b1080-902d-11eb-881e-bcc51d90ea0e.png)
