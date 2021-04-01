@@ -70,6 +70,14 @@ Determines whether or not the Rover has reached the parking bay, based on the ex
 - Makes use of wheel sensor encoders
 - Ideally for use right before parking
 
-
 ## Authors and Acknowledgement
+Naa Kotey:
+autonomousRover.py
+roverPark.py
+pathCorrection.py
+lineFolTest.py
 
+4Tronix:
+robohat.sh
+
+*Parts of the keyControlRover.py were inspired by the motor test script provided by 4Tronix
